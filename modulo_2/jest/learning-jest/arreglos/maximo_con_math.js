@@ -1,6 +1,6 @@
-function maximo(arreglo){
-    if(!Array.isArray(arreglo) || arreglo.length==0) 
-        throw new TypeError("arreglo inválido");
-    return Math.max(...arreglo);
+function maximo_con_math(arreglo) {
+  if (!Array.isArray(arreglo) || arreglo.length == 0)
+    throw new TypeError("arreglo invalido");
+  return Math.max(...arreglo);
 }
-module.exports={maximo}
+module.exports = { maximo_con_math };
